@@ -28,11 +28,11 @@ Este programa API-REST llevar un registro del inventario del estado de vacunaci√
 
 * Para crear las tablas quitamos el # la primera ves antes de ejecutar la aplicacion y lo volvemos a colocar una ves que se ejecute
 
-  * #spring.jpa.generate-ddl=true
-  * #spring.jpa.hibernate.dll-auto=create-drop
-  * #spring.jpa.properties.hibernate.jdbc.lob.non_contextual_creation=true
+  * spring.jpa.generate-ddl=true
+  * spring.jpa.hibernate.dll-auto=create-drop
+  * spring.jpa.properties.hibernate.jdbc.lob.non_contextual_creation=true
 
-* Una vez instalada las librerias necesaria, procedemos a ejecutar el programa principal con el Plugin de Maven sprin-boot:run.
+* Una vez instalada las librerias necesaria, procedemos a ejecutar el programa principal con el Plugin de Maven sprin-boot:run. Y volvemos a colocar el # en los campos.
 
   * #spring.jpa.generate-ddl=true
   * #spring.jpa.hibernate.dll-auto=create-drop
