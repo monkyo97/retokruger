@@ -18,7 +18,6 @@ Este programa API-REST llevar un registro del inventario del estado de vacunaci√
 * Creamos una base de datos en POSTGRESQL con el nombre retoBD.
 
 * En la carpeta resources del proyecto abrimos el archivo application.properties y procedemos a cambiar las credenciales del usuario y contrase√±a de acceso a la base de datos
-* Para crear las tablas quitamos el # la primera ves antes de ejecutar la aplicacion y lo volvemos a colocar una ves que se ejecute
 
   * spring.jpa.database=POSTGRESQL
   * spring.datasource.platform=postgres
@@ -26,9 +25,12 @@ Este programa API-REST llevar un registro del inventario del estado de vacunaci√
   * spring.datasource.username=usuario
   * spring.datasource.password=contrase√±a
   * spring.jpa.show-sql=true
-  * spring.jpa.generate-ddl=true
-  * spring.jpa.hibernate.dll-auto=create-drop
-  * spring.jpa.properties.hibernate.jdbc.lob.non_contextual_creation=true
+
+* Para crear las tablas quitamos el # la primera ves antes de ejecutar la aplicacion y lo volvemos a colocar una ves que se ejecute
+
+  * #spring.jpa.generate-ddl=true
+  * #spring.jpa.hibernate.dll-auto=create-drop
+  * #spring.jpa.properties.hibernate.jdbc.lob.non_contextual_creation=true
 
 * Una vez instalada las librerias necesaria, procedemos a ejecutar el programa principal con el Plugin de Maven sprin-boot:run.
 
