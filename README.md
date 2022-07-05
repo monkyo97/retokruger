@@ -57,4 +57,4 @@ Para hacer las pruebas de las peticiones se puede utilizar [Postman](https://www
 
 * http://localhost:8080/api/person inserta a la persona y lo crea como empleado
 * http://localhost:8080/api/employeeupdate/{id} actualiza la informacion del empleado
-* http://localhost:8080/api/vaccineEmployee/{id} actualiza la vacuna del empleado si el estado es que esta vacunado
+* http://localhost:8080/api/vaccineemployee/{id} actualiza la vacuna del empleado si el estado es que esta vacunado
