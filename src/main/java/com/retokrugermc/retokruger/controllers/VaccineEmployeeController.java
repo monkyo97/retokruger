@@ -14,12 +14,12 @@ public class VaccineEmployeeController {
     @Autowired
     private VaccineEmployeeService vaccineEmployeeService;
 
-    @GetMapping("/vaccineEmployee")
+    @GetMapping("/vaccineemployee")
     public ResponseEntity<?> getAllVaccineEmployee(@RequestParam(required = false) String vaccineEmployee){
         return ResponseEntity.ok(vaccineEmployeeService.findAll());
     }
 
-    @PostMapping("/vaccineEmployee/{id}")
+    @PostMapping("/vaccineemployee/{id}")
     public ResponseEntity<?> saveVaccineEmployee(@RequestBody CreateVaccineEmployeeRequest request, @PathVariable(value = "id") Integer id){
         return ResponseEntity.ok(vaccineEmployeeService.saveVaccineEmployee(request,id));
     }
