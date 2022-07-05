@@ -51,7 +51,7 @@ Para hacer las pruebas de las peticiones se puede utilizar [Postman](https://www
 * http://localhost:8080/api/employee/{id} devuelve al empleado con los el id enviado
 * http://localhost:8080/api/filterstatusvaccine/{status} devuelve todos los empleados con el estado de vacunado o no vacunado
 * http://localhost:8080/api/filternamevaccine/{name} devuelve todos los empleados con el nombre de la vacuna
-* http://localhost:8080/api/filterdatevaccine devuelve todos los empleados con el nombre de la vacuna en un rango de fechas
+* http://localhost:8080/api/filterdatevaccine devuelve todos los empleados vacunados en un rango de fechas
 
 <h3>Peticiones Post</h3>
 
